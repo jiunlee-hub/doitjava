@@ -16,7 +16,7 @@ public class SwitchEx2 {
 			case 11:
 				System.out.println("11시에는 오전업무를 시작합니다.");
 			case 12:
-				System.out.println("12시에는 점심을 먹습니다.");
+			System.out.println("12시에는 점심을 먹습니다.");
 		}
 		
 		String pos = "부장";
