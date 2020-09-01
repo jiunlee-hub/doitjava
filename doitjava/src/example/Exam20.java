@@ -6,6 +6,7 @@ public class Exam20 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		sc.close();
 		for(int i =0; i<3; i++) {
 			int com = (int)(Math.random()*10) % 3 + 1;
 		int input;
@@ -33,6 +34,7 @@ public class Exam20 {
 		}
 		System.out.println("====================");
 		}
-		
+		sc.close();
 	}
+	
 }

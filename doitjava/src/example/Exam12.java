@@ -6,6 +6,7 @@ public class Exam12 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		sc.close();
 		System.out.print("몇줄을 출력할까요?:");
 		int line = sc.nextInt();
 		for(int i=0; i<line; i++) {
@@ -15,10 +16,11 @@ public class Exam12 {
 				}else {
 					System.out.print("\\");
 				}
-				
+			
 			}
 			System.out.println();
 		}
+		
 	}
 
 }
