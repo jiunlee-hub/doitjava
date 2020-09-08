@@ -39,5 +39,3 @@ public class AdvancedFor01 {
 			System.out.println();
 		}
 	}
-
-
