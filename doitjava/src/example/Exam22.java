@@ -10,7 +10,7 @@ public class Exam22 {
         int count =0; 
          
         Scanner sc = new Scanner(System.in); 
-        sc.close();
+        
         while(true) { 
             count++; 
             System.out.println("1과 100사이의 값을 입력하세요 : "); 

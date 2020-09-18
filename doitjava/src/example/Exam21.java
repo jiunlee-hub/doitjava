@@ -31,6 +31,15 @@ public class Exam21 {
 		System.out.println("컴퓨터 승");
 		life--;
 			}
+		//현재 점수와 남은 목숨 출력
+		System.out.println("현재점수: " + score);
+		System.out.println("남은 라이프 :" + life);
+		//목숨이 0이 되면 게임을 종료
+		if(life==0) {
+			System.out.println("라이프가 0이라서 게임을 종료합니다.");
+			sc.close();
+			break;
+		}
 		}
 	}
 	
