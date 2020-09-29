@@ -1,6 +1,6 @@
 package chapter13.stream;
 
-public class Student {
+public class Student implements Comparable <Student> {
 	private String name;
 	private int score;
 	
@@ -20,6 +20,11 @@ public class Student {
 	@Override
 	public String toString() {
 		return name+ "-" + score;
+	}
+
+	@Override
+	public int compareTo(Student o) {
+		return Integer.compare(this.score, o.score);
 	}
 	
 }
